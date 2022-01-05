@@ -22,7 +22,9 @@ public class TankPlacement : MonoBehaviour
     private void OnMouseUpAsButton()
     {
         if (CanPlaceTank())
-        tankSpawner = Instantiate(tank, transform.position, tank.transform.rotation);
+            tankSpawner = Instantiate(tank, transform.position, tank.transform.rotation);
+        else if (CanUpgradeTank())
+            tankSpawner.GetComponent<TankData>().IncreaseLevel(); 
     }
 
     private bool CanPlaceTank()
@@ -34,5 +36,19 @@ public class TankPlacement : MonoBehaviour
         {
             return false;
         }
+    }
+
+    private bool CanUpgradeTank()
+    {
+        if (tank != null)
+        {
+            TankData data = tank.GetComponent<TankData>();
+            TankLevel nextLevel = data.GetNextLevel();
+            if (nextLevel != null)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

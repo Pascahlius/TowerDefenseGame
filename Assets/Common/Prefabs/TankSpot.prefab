@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7804241658606610722}
   - component: {fileID: 3477518767429087378}
   - component: {fileID: 2674919541851866193}
+  - component: {fileID: -6049573171037939383}
   m_Layer: 0
   m_Name: TankSpot
   m_TagString: Untagged
@@ -112,4 +113,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb80fd732a887534cadedb71afdaffee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tank: {fileID: 1719996265209063404, guid: b1632af376998604fa72423dbc71acf9, type: 3}
+  tank: {fileID: 5314371977169043386, guid: 38c0157d8f04158439d12b077d884248, type: 3}
+--- !u!114 &-6049573171037939383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7804241658606610723}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d599c8de3dd164ba2018f48cd2dc15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level:
+  - cost: 50
+    display: {fileID: 1719996265209063404, guid: b1632af376998604fa72423dbc71acf9, type: 3}
+  - cost: 100
+    display: {fileID: 3074907262795841948, guid: 1b41670ad8714b14f94550437ebd0bf3, type: 3}
+  - cost: 200
+    display: {fileID: 7817732285228718323, guid: d73063612a824af47934d4c2fe6421d2, type: 3}
+  currentLevel:
+    cost: 0
+    display: {fileID: 0}
