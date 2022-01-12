@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3477518767429087378}
   - component: {fileID: 2674919541851866193}
   - component: {fileID: -6049573171037939383}
+  - component: {fileID: 7727159523836987537}
   m_Layer: 0
   m_Name: TankSpot
   m_TagString: Untagged
@@ -53,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -136,3 +137,37 @@ MonoBehaviour:
   currentLevel:
     cost: 0
     display: {fileID: 0}
+--- !u!114 &7727159523836987537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7804241658606610723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000f128e6e5231b87982b8400cf4d8b8851c74297b8
+  m_ShapePath:
+  - {x: -0.45556164, y: -0.34807205, z: 0}
+  - {x: -0.17802906, y: -0.51086855, z: 0}
+  - {x: 0.13772058, y: -0.51086855, z: 0}
+  - {x: 0.33127642, y: -0.41189384, z: 0}
+  - {x: 0.48034286, y: -0.2455039, z: 0}
+  - {x: 0.53953695, y: 0.12973404, z: 0}
+  - {x: 0.4198804, y: 0.3792777, z: 0}
+  - {x: 0.16459322, y: 0.5808203, z: 0}
+  - {x: -0.15787506, y: 0.5942564, z: 0}
+  - {x: -0.42868996, y: 0.46227932, z: 0}
+  - {x: -0.577755, y: 0.18109417, z: 0}
+  - {x: -0.57439613, y: -0.11450148, z: 0}
+  m_ShapePathHash: -1783654355
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 37316
