@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -49,6 +50,21 @@ GameManager.singleton.DeIncreaseHealth(-1);
         
         
         
+    }
+
+    public float DistanceToGoal()
+    {
+        float distance = 0f;
+        distance += Vector2.Distance(gameObject.transform.position, waypoints[currentWaypoint+1].transform.position);
+
+        for (int i = currentWaypoint + 1; i < waypoints.Length - 1; i++)
+        {
+            Vector3 startPosition = waypoints[i].transform.position;
+            Vector3 endPosition = waypoints[i + 1].transform.position;
+            distance = distance + Vector2.Distance(startPosition, endPosition);
+        }
+        
+        return distance;
     }
 
     private void RotateEnemy()

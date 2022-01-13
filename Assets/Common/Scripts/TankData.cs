@@ -7,12 +7,15 @@ public class TankLevel
 {
     public int cost;
     public GameObject display;
+
+    public GameObject bullet;
+    public float fireRate;
 }
 
 public class TankData : MonoBehaviour
 {
     public List<TankLevel> level;
-    [SerializeField] TankLevel currentLevel;
+    public TankLevel currentLevel;
 
     private void OnEnable()
     {

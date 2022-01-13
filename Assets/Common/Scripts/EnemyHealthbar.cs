@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyHealthbar : MonoBehaviour
 {
     public float maxHealth = 100;
-    [SerializeField] float currentHealth;
+    public float currentHealth;
     float originalScale;
     
     // Start is called before the first frame update

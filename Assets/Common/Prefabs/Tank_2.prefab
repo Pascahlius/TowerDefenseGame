@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9119652218922224996}
   - component: {fileID: 5732049799853872992}
+  - component: {fileID: 7737322083128243738}
   m_Layer: 0
   m_Name: Tank_2
   m_TagString: Untagged
@@ -82,3 +83,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7737322083128243738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074907262795841948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000f128e6e5231b87982b8400cf4d8b8851c74297b8
+  m_ShapePath:
+  - {x: -0.41503543, y: -0.7476098, z: 0}
+  - {x: -0.1123406, y: -0.77390194, z: 0}
+  - {x: 0.10734768, y: -0.7763983, z: 0}
+  - {x: 0.4325106, y: -0.7476098, z: 0}
+  - {x: 0.44249645, y: 0.34817657, z: 0}
+  - {x: 0.25214225, y: 0.35449702, z: 0}
+  - {x: 0.04743269, y: 0.3295324, z: 0}
+  - {x: 0.037446864, y: 0.8213346, z: 0}
+  - {x: 0.0024964586, y: 0.8213346, z: 0}
+  - {x: -0.017475206, y: 0.33452535, z: 0}
+  - {x: -0.24215642, y: 0.35948992, z: 0}
+  - {x: -0.41753188, y: 0.36065885, z: 0}
+  m_ShapePathHash: 853974771
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 27916
